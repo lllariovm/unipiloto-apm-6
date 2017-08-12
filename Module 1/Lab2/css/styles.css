@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+    color: #333;
+    font-family: "Fjalla One", Arial, "Monaco", sans-serif;
+    font-size: 16px;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header{
+    background: #808080;
+    border-bottom: 1px solid;
+}
+
+#container header{
+    background: #af9f6d;
+    border-bottom: 1px solid;
+}
+
+#container header h1{
+    font-size: 4em;
+    margin: 1em;
+}
+
+#container header p{
+    font-size: 2em;
+    margin: 1em;
+}
+
+#container #content{
+    background: #dedede;
+    padding: 10px;
+}
+
+#container #content article{
+    background: #FFF;
+    border-bottom: 2px;
+}
+
+#container footer{
+    background: #BDBDBD;
+}
+
+#container #content2{
+    background: #af9f6d;
+    padding: 10px;
+}
+
+
+
+
+@media screen and (max-width: 465px){
+    #container header{
+        background: #2EFEF7;
+    }
+
+    #container #content article{
+        background: #A9A9F5;
+    }
+
+    #container #content{
+        background: #A9A9F5;
+    }
+
+    #container  #content2{
+        background: #5882FA;
+    }
+}
+
+@media screen and (min-width: 465px) and (max-width: 767px) {
+   #container header{
+        background: #31B404;
+    }
+
+    #container #content article{
+        background: #FF4000;
+    }
+
+    #container #content{
+        background: #FF4000;
+    }
+
+    #container  #content2{
+        background: #A9A9F5;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #container header{
+        background: #D7DF01;
+    }
+
+    #container #content article{
+        background: #04B45F;
+    }
+
+    #container #content{
+        background: #04B45F;
+    }
+
+    #container  #content2{
+        background: #FF4000;
+    } 
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+     #container header{
+        background: #FF00FF;
+    }
+
+    #container #content article{
+        background: #0489B1;
+    }
+
+    #container #content{
+        background: #0489B1;
+    }
+
+    #container  #content2{
+        background: #F2F5A9;
+    } 
+}
