@@ -1,0 +1,21 @@
+<h1>{{ title }}</h1>
+<h2>{{ student.name }} details!</h2>
+<label for="id">id</label> <span>{{ student.id }}</span><br />
+<label for="edad">edad</label> <span>{{ student.age }}</span><br />
+<label for="nombre">nombre</label> <span>{{ student.name }}</span><br />
+<label for="apellido">apellido</label> <span>{{ student.lastname }}</span><br />
+
+<div>
+  <hr />
+  <label>Id: </label><br />
+  <input [(ngModel)]="student.id" placeholder="id"><br />
+  <label>Edad: </label><br />
+  <textarea [(ngModel)]="student.age" placeholder="edad"></textarea><br />
+  <label>Nombre: </label><br />
+  <input [(ngModel)]="student.name" placeholder="nombre"><br />
+  <label>Apellido: </label><br />
+  <input [(ngModel)]="student.lastname" placeholder="apellido"><br />
+  
+</div>
+
+
