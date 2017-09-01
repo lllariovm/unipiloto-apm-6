@@ -10,8 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { TeacherDetailComponent } from './teachers/detailteacher/teacher-detail-component';
 import { StudentsComponent } from './students/students.component';
+import { StudentDetailComponent } from './students/detailstudent/student-detail-component';
 import { DriversComponent } from './drivers/drivers.component';
+import { DriverDetailComponent } from './drivers/detaildriver/driver-detail-component';
 import { VehiclesComponent } from './vehicles/vehicles.component';
+import { VehicleDetailComponent } from './vehicles/detailvehicle/vehicle-detail-component';
 
 @NgModule({
   declarations: [
@@ -20,8 +23,11 @@ import { VehiclesComponent } from './vehicles/vehicles.component';
     TeachersComponent,
     TeacherDetailComponent,
     StudentsComponent,
+    StudentDetailComponent,
     DriversComponent,
-    VehiclesComponent
+    DriverDetailComponent,
+    VehiclesComponent,
+    VehicleDetailComponent
   ],
   imports: [
     BrowserModule,

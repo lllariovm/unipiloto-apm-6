@@ -3,8 +3,8 @@ import {Vehicle} from '../models/vehicle';
 
 @Component({
   selector: 'app-vehicles',
-  templateUrl: './vehicles.component.html',
-  styleUrls: ['./vehicles.component.css']
+  templateUrl: './vehicles.component.html'
+  
 })
 export class VehiclesComponent implements OnInit {
  

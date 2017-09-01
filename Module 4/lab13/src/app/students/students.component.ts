@@ -3,8 +3,8 @@ import {Student} from '../models/student';
 
 @Component({
   selector: 'app-students',
-  templateUrl: './students.component.html',
-  styleUrls: ['./students.component.css']
+  templateUrl: './students.component.html'
+  
 })
 export class StudentsComponent implements OnInit {
   

@@ -1,0 +1,29 @@
+<!--
+export class Vehicle{
+  id: number;
+  brand: string;
+  model: string;
+  color: string;
+  plate: string;
+  capacity: string;
+  build_year: string;
+}
+-->
+
+<div *ngIf="vehicle">
+  <hr />
+  <label>Id: </label><br />
+  <input [(ngModel)]="vehicle.id" placeholder="vehicle_id"><br />
+  <label>Brand: </label><br />
+  <input [(ngModel)]="vehicle.brand" placeholder="vehicle_age"><br />
+  <label>Model: </label><br />
+  <input [(ngModel)]="vehicle.model" placeholder="vehicle_name"><br />
+  <label>Color: </label><br />
+  <input [(ngModel)]="vehicle.color" placeholder="vehicle_lastname"><br />
+  <label>Plate: </label><br />
+  <input [(ngModel)]="vehicle.plate" placeholder="vehicle_lastname"><br />
+  <label>Capacity: </label><br />
+  <input [(ngModel)]="vehicle.capacity" placeholder="vehicle_lastname"><br />
+  <label>Build Year: </label><br />
+  <input [(ngModel)]="vehicle.build_year" placeholder="vehicle_lastname"><br />
+</div>

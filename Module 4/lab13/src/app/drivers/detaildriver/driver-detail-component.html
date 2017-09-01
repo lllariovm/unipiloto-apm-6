@@ -1,0 +1,24 @@
+<!--
+export class Driver{
+  id: number;
+  license: number;
+  first_name: string;
+  last_name: string;
+  age: number;
+}
+-->
+
+
+<div *ngIf="driver">
+  <hr />
+  <label>Id: </label><br />
+  <input [(ngModel)]="driver.id" placeholder="student_id"><br />
+  <label>License: </label><br />
+  <input [(ngModel)]="driver.license" placeholder="student_age"><br />
+  <label>First Name: </label><br />
+  <input [(ngModel)]="driver.first_name" placeholder="student_name"><br />
+  <label>Last Name: </label><br />
+  <input [(ngModel)]="driver.last_name" placeholder="student_lastname"><br />
+  <label>Age: </label><br />
+  <input [(ngModel)]="driver.age" placeholder="student_lastname"><br />
+</div>
