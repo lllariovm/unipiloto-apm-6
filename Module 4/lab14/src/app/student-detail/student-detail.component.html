@@ -1,0 +1,23 @@
+<!--
+export class Student{
+  id: number;
+  age: number;
+  name: string;
+  lastname: string;
+}
+-->
+
+
+<h1>{{ title }}</h1>
+
+<div *ngIf="student">
+  <hr />
+  <label>Id: </label><br />
+  <input [(ngModel)]="student.id" placeholder="id"><br />
+  <label>Age: </label><br />
+  <input [(ngModel)]="student.age" placeholder="age"><br />
+  <label>Name: </label><br />
+  <input [(ngModel)]="student.name" placeholder="name"><br />
+  <label>Last Name: </label><br />
+  <input [(ngModel)]="student.lastname" placeholder="lastname"><br />
+</div>
